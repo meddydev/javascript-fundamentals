@@ -1,4 +1,2 @@
-const name = 'JavaScript';
+const name = "JavaScript";
 console.log("Hi, " + name);
-
-
