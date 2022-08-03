@@ -16,7 +16,9 @@ const candies = [
 
 const searchCandies = (prefix, maxPrice) => {
   filteredCandies = candies.filter(
-    (candy) => candy.name.toLowerCase().startsWith(prefix.toLowerCase()) && candy.price < maxPrice
+    (candy) =>
+      candy.name.toLowerCase().startsWith(prefix.toLowerCase()) &&
+      candy.price < maxPrice
   );
 
   return filteredCandies.map((candy) => candy.name);
